@@ -11,3 +11,5 @@ As a way to learn hugo, ported a free theme [Visualize](https://templated.co/vis
 - Modify `main.json` for the main content of images and content.
 
 I wanted to use Visualize theme for my photographs and also use Hugo (to get a feel of how to use it) while doing so.
+
+[Demo here.](https://aswinkarthik93.github.io/visualize-hugo/)
