@@ -1,0 +1,31 @@
+{
+    "image": "avatar.jpg",
+    "content": "This is <strong>Visualize</strong>, a responsive site template designed by <a href=\"http://templated.co\">TEMPLATED</a><br /> and released for free under the Creative Commons License",
+    "social": [
+        {
+            "name": "Twitter",
+            "link": "#",
+            "class": "fa-twitter"
+        },
+        {
+            "name": "Facebook",
+            "link": "#",
+            "class": "fa-facebook"
+        },
+        {
+            "name": "Instagram",
+            "link": "#",
+            "class": "fa-instagram"
+        },
+        {
+            "name": "500px",
+            "link": "#",
+            "class": "fa-500px"
+        },
+        {
+            "name": "Email",
+            "link": "#",
+            "class": "fa-envelope-o"
+        }
+    ]
+}

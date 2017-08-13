@@ -1,12 +1,9 @@
 <header id="header">
-    <span class="avatar"><img src="images/{{ .Data.avatar.image }}" alt="" /></span>
-    <h1>This is <strong>Visualize</strong>, a responsive site template designed by <a href="http://templated.co">TEMPLATED</a><br />
-    and released for free under the Creative Commons License.</h1>
+    <span class="avatar"><img src="images/{{ .Site.Data.header.image }}" alt="" /></span>
+    <h1>{{ .Site.Data.header.content | safeHTML }}.</h1>
     <ul class="icons">
-        <li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
-        <li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
-        <li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
-        <li><a href="#" class="icon style2 fa-500px"><span class="label">500px</span></a></li>
-        <li><a href="#" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
+        {{ range .Site.Data.header.social  }}
+        <li><a href="{{ .link }}" class="icon style2 {{ .class }}"><span class="label">{{ .name }}</span></a></li>
+        {{ end }}
     </ul>
 </header>

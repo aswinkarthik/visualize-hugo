@@ -12,18 +12,17 @@
     <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <body>
-    
     <!-- Wrapper -->
     <div id="wrapper">
         
         <!-- Header -->
-        {{ partial "header.html" }}
+        {{ partial "header.html" . }}
         
         <!-- Main -->
-        {{partial "main.html"}}
+        {{ partial "main.html" . }}
         
         <!-- Footer -->
-        {{ partial "footer.html" }}
+        {{ partial "footer.html" . }}
     </div>
     
     <!-- Scripts -->
